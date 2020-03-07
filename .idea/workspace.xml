@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homepage.scss" afterDir="false" />
+    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="broken our homepage into smaller components, finished styling our menu-item component">
+      <change afterPath="$PROJECT_DIR$/src/components/Directory/Directory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Directory/Directory.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuItem/MenuItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuItem/MenuItem.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/Homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Homepage/Homepage.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +49,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\pages\homepage" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -79,21 +82,56 @@
       <option name="presentableId" value="Default" />
       <updated>1583587226252</updated>
       <workItem from="1583587227847" duration="437000" />
-      <workItem from="1583609364700" duration="1873000" />
+      <workItem from="1583609364700" duration="4160000" />
+      <workItem from="1583615212983" duration="2541000" />
     </task>
+    <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
+      <created>1583612542549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583612542549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Created project with CRA and added files for Homepage" />
+    <MESSAGE value="broken our homepage into smaller components, finished styling our menu-item component" />
+    <option name="LAST_COMMIT_MESSAGE" value="broken our homepage into smaller components, finished styling our menu-item component" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="324" y="138" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1583613967239">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="324" y="138" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583613967239" />
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583609394355">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583609394355" />
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1583617734353">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583617734353" />
+    <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="129" y="56" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612596251" />
     <state x="318" y="141" key="EditFileWatcherDialog" timestamp="1583612064606">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1583615191848">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583612613503">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583612613503" />
   </component>
 </project>
