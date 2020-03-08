@@ -3,6 +3,7 @@ import './App.css';
 
 import Homepage from './pages/Homepage/Homepage';
 import {Route, Redirect, Switch, useParams} from 'react-router-dom';
+import ShopPage from './pages/ShopPage/ShopPage';
 
 function App() {
     const z = useParams();
@@ -10,9 +11,12 @@ function App() {
     return (
         <div>
             <Switch>
-                <Route component={Homepage}
-                       path='/'
-                       exact/>
+                <Route exact path='/'>
+                    <Homepage/>
+                </Route>
+                <Route path='/shop'>
+                    <ShopPage/> 
+                </Route>
             </Switch>
         </div>
     );
