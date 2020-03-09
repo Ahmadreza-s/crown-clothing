@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 
-import Homepage from './pages/Homepage/Homepage';
+import Homepage from './pages/Home/Home';
 import {Route, Switch} from 'react-router-dom';
-import ShopPage from './pages/ShopPage/ShopPage';
+import Shop from './pages/Shop/Shop';
 import Header from './components/Header/Header';
+import Authentication from './pages/Authentication/Authentication';
 
 function App() {
     return (
@@ -15,7 +16,10 @@ function App() {
                     <Homepage/>
                 </Route>
                 <Route path='/shop'>
-                    <ShopPage/>
+                    <Shop/>
+                </Route>
+                <Route path='/auth'>
+                    <Authentication/>
                 </Route>
             </Switch>
         </>
