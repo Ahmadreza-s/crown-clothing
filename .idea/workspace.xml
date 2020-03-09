@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CollectionItem/CollectionItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CollectionItem/CollectionItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ShopPage/Shop.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/ShopPage/ShopPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -50,6 +47,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\pages\homepage" />
     </key>
@@ -83,7 +83,8 @@
       <workItem from="1583609364700" duration="4160000" />
       <workItem from="1583615212983" duration="3721000" />
       <workItem from="1583658744997" duration="625000" />
-      <workItem from="1583663307441" duration="7138000" />
+      <workItem from="1583663307441" duration="7243000" />
+      <workItem from="1583743229207" duration="2808000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -106,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583669524608</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updating app with a ShopPage, CollectionItem, CollectionPreview">
+      <created>1583673551802</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583673551802</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,7 +125,9 @@
     <MESSAGE value="Created project with CRA and added files for Homepage" />
     <MESSAGE value="broken our homepage into smaller components, finished styling our menu-item component" />
     <MESSAGE value="update our menu-items to navigate" />
-    <option name="LAST_COMMIT_MESSAGE" value="update our menu-items to navigate" />
+    <MESSAGE value="updating app with a ShopPage, CollectionItem, CollectionPreview" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating app with a ShopPage, CollectionItem, CollectionPreview" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="324" y="138" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1583613967239">
@@ -128,10 +138,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583609394355" />
-    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1583669523807">
+    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1583673551177">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583669523807" />
+    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583673551177" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -140,29 +150,29 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1583663477828">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1583744055183">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583663477828" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1583663477828">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583744055183" />
+    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1583744055182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583663477828" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1583663477828">
+    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583744055182" />
+    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1583744055182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583663477828" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1583663477828">
+    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583744055182" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1583744055182">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583663477828" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583744055182" />
     <state x="184" y="11" key="SettingsEditor" timestamp="1583615191848">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583669527279">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583673553530">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583669527279" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583673553530" />
   </component>
 </project>

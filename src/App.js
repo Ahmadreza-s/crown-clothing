@@ -2,23 +2,23 @@ import React from 'react';
 import './App.css';
 
 import Homepage from './pages/Homepage/Homepage';
-import {Route, Redirect, Switch, useParams} from 'react-router-dom';
+import {Route, Switch} from 'react-router-dom';
 import ShopPage from './pages/ShopPage/ShopPage';
+import Header from './components/Header/Header';
 
 function App() {
-    const z = useParams();
-    console.log(z);
     return (
-        <div>
+        <>
+            <Header/>
             <Switch>
                 <Route exact path='/'>
                     <Homepage/>
                 </Route>
                 <Route path='/shop'>
-                    <ShopPage/> 
+                    <ShopPage/>
                 </Route>
             </Switch>
-        </div>
+        </>
     );
 }
 
