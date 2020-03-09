@@ -6,7 +6,6 @@ const Authentication = () => {
     return (
         <div className='authentication'>
             <SignIn/>
-            <SignIn/>
         </div>
     );
 };

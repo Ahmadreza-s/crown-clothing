@@ -2,13 +2,14 @@ import React from 'react';
 import './SignIn.scss';
 import FormInput from '../FormInput/FormInput';
 import Button from '../Button/Button';
+import {SignInWithGoogle} from '../../firebase/firebase.utils';
 
 const SignIn = () => {
     const [email, setEmailState] = React.useState('');
     const [password, setPasswordState] = React.useState('');
 
-    const emailInputHandler = ({value}) => setEmailState(value);
-    const passwordInputHandler = ({value}) => setPasswordState(value);
+    const emailInputHandler = ({target}) => { setEmailState(target.value); };
+    const passwordInputHandler = ({target}) => setPasswordState(target.value);
 
     const submitHandler = event => {
         event.preventDefault();
@@ -36,7 +37,8 @@ const SignIn = () => {
                     <Button type='submit'>
                         Sign In
                     </Button>
-                    <Button>
+                    <Button onClick={SignInWithGoogle}
+                            isGoogleSignIn>
                         Sign In with google
                     </Button>
                 </div>
