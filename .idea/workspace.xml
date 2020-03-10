@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.scss" afterDir="false" />
+    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="finishing SignIn handleSubmit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Authentication/Authentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Authentication/Authentication.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Authentication/Authentication.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Authentication/Authentication.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <workItem from="1583743229207" duration="7055000" />
       <workItem from="1583771645092" duration="1737000" />
       <workItem from="1583776826799" duration="10034000" />
-      <workItem from="1583833312847" duration="8823000" />
+      <workItem from="1583833312847" duration="9338000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -140,7 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583793322402</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="implements firebase utils, included ability to store authenticated users into our firestore database">
+      <created>1583843565715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583843565715</updated>
+    </task>
+    <task id="LOCAL-00009" summary="fix a bug in firebase.utils.js">
+      <created>1583843673620</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583843673620</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +164,9 @@
     <MESSAGE value="adding header component and links to home, shop page and contact" />
     <MESSAGE value="adding Button, FormInput, Authentication" />
     <MESSAGE value="integrated firebase into app, created sign in with google and some improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="integrated firebase into app, created sign in with google and some improvements" />
+    <MESSAGE value="implements firebase utils, included ability to store authenticated users into our firestore database" />
+    <MESSAGE value="fix a bug in firebase.utils.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix a bug in firebase.utils.js" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -169,10 +180,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583609394355" />
-    <state x="216" y="0" key="CommitChangelistDialog2" timestamp="1583843564930">
+    <state x="81" y="0" key="CommitChangelistDialog2" timestamp="1583843999592">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="216" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583843564930" />
+    <state x="81" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583843999592" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
