@@ -2,8 +2,10 @@ import React from 'react';
 import './Header.scss';
 import {ReactComponent as Logo} from '../../assets/images/crown.svg';
 import {Link} from 'react-router-dom';
+import {useSelector} from 'react-redux';
 
-const header = ({user}) => {
+const Header = () => {
+    const user = useSelector(state => state.user.currentUser);
     return (
         <div className='header'>
             <Link className='logo-container' to='/'>
@@ -31,4 +33,4 @@ const header = ({user}) => {
     );
 };
 
-export default header;
+export default Header;
