@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cart.actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cart.reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cart.types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/cart/cart.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/cart/cart.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/root.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/root.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,8 @@
       <workItem from="1583867790931" duration="3648000" />
       <workItem from="1583879443506" duration="712000" />
       <workItem from="1583914532869" duration="9413000" />
-      <workItem from="1583927934015" duration="15900000" />
+      <workItem from="1583927934015" duration="16198000" />
+      <workItem from="1583952286008" duration="2275000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -216,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583942632837</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added addItem and removeItem functionality to checkout item component">
+      <created>1583945102201</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583945102201</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +248,8 @@
     <MESSAGE value="Fix the quantity bug" />
     <MESSAGE value="set key for CartItem" />
     <MESSAGE value="added checkout page, checkout item component, and other improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="added checkout page, checkout item component, and other improvements" />
+    <MESSAGE value="added addItem and removeItem functionality to checkout item component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added addItem and removeItem functionality to checkout item component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -255,10 +263,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583917525863" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583942632091">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583956737237">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583942632091" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583956737237" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -267,22 +275,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1583928220133">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1583955349109">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583928220133" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1583928220133">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583955349109" />
+    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1583955349109">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583928220133" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1583928220133">
+    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583955349109" />
+    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1583955349108">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583928220133" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1583928220133">
+    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583955349108" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1583955349109">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583928220133" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583955349109" />
     <state x="453" y="0" key="RollbackChangesDialog" timestamp="1583844298180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -291,21 +299,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583929902480">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583945103891">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583929902480" />
-    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1583939106441">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583945103891" />
+    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1583956833264">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1583939106441" />
+    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1583956833264" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1583754349048">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583754349048" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583942766363">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583955891198">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583942766363" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583955891198" />
   </component>
 </project>
