@@ -7,7 +7,7 @@ import './Collections.scss';
 
 const Collections = () => {
     const params = useParams();
-    const items = useSelector(state => state.shop.collections.find(c => c.routeName === params.category));
+    const items = useSelector(state => state.shop.collections[params.category]);
 
     return (
         <>
@@ -29,4 +29,4 @@ const Collections = () => {
     );
 };
 
-export default Collections;
+export default React.memo(Collections);

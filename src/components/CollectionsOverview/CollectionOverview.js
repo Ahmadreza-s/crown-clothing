@@ -8,7 +8,7 @@ const CollectionOverview = () => {
     return (
         <div className='collections-overview'>
             {
-                collections.map(c => (
+                Object.entries(collections).map(([_, c]) => (
                     <CollectionPreview key={c.id} {...c}/>
                 ))
             }
