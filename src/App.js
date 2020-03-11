@@ -10,8 +10,7 @@ import Authentication from './pages/Authentication/Authentication';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import Logout from './pages/Logout/Logout';
 import {useDispatch, useSelector} from 'react-redux';
-import * as actions from './store/actions/';
-import {setCurrentUser} from './store/actions/';
+import {setCurrentUser} from './store/user/user.actions';
 
 function App() {
     const dispatch = useDispatch();
@@ -21,7 +20,7 @@ function App() {
             if (userAuth) {
                 const userRef = await createUserProfileDocument(userAuth, {});
                 userRef.onSnapshot(snapshot => {
-                    dispatch(actions.setCurrentUser({
+                    dispatch(setCurrentUser({
                         id: snapshot.id,
                         ...snapshot.data()
                     }));

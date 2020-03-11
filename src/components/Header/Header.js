@@ -3,9 +3,12 @@ import './Header.scss';
 import {ReactComponent as Logo} from '../../assets/images/crown.svg';
 import {Link} from 'react-router-dom';
 import {useSelector} from 'react-redux';
+import CartIcon from '../Cart/CartIcon/CartIcon';
+import Cart from '../Cart/Cart';
 
 const Header = () => {
     const user = useSelector(state => state.user.currentUser);
+    const cartHidden = useSelector(state => state.cart.hidden);
     return (
         <div className='header'>
             <Link className='logo-container' to='/'>
@@ -28,7 +31,11 @@ const Header = () => {
                             SIGN IN
                         </Link>
                 }
+                <CartIcon/>
             </div>
+            {
+                !cartHidden && <Cart/>
+            }
         </div>
     );
 };
