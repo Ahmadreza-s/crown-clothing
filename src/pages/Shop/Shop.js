@@ -1,9 +1,9 @@
 import React from 'react';
-import SHOP_DATA from './Shop.data';
 import CollectionPreview from '../../components/CollectionPreview/CollectionPreview';
+import {useSelector} from 'react-redux';
 
 const Shop = () => {
-    const [collections, setCollections] = React.useState(SHOP_DATA);
+    const collections = useSelector(state => state.shop.collections);
     return (
         <div className='shop'>
             {

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory.reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Directory/Directory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Directory/Directory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Shop/Shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/Shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop/Shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/root.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +48,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\components\Cart\CartIcon" />
-      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\pages\homepage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\redux\shop" />
+      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\components\Cart\CartIcon" />
+      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\pages\homepage" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -93,7 +95,7 @@
       <workItem from="1583879443506" duration="712000" />
       <workItem from="1583914532869" duration="9413000" />
       <workItem from="1583927934015" duration="16198000" />
-      <workItem from="1583952286008" duration="4460000" />
+      <workItem from="1583952286008" duration="5960000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -235,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583958656696</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added directory reducer, change directory class to functional component">
+      <created>1583959831368</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583959831368</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +272,8 @@
     <MESSAGE value="added addItem and removeItem functionality to checkout item component" />
     <MESSAGE value="added redux-persist" />
     <MESSAGE value="change some folders name" />
-    <option name="LAST_COMMIT_MESSAGE" value="change some folders name" />
+    <MESSAGE value="added directory reducer, change directory class to functional component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added directory reducer, change directory class to functional component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -277,10 +287,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583917525863" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583958655955">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583959830726">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583958655955" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583959830726" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -325,9 +335,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583754349048" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583955891198">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583960510372">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583955891198" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583960510372" />
   </component>
 </project>
