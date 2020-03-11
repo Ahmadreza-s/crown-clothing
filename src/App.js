@@ -10,7 +10,7 @@ import Authentication from './pages/Authentication/Authentication';
 import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import Logout from './pages/Logout/Logout';
 import {useDispatch, useSelector} from 'react-redux';
-import {setCurrentUser} from './store/user/user.actions';
+import {setCurrentUser} from './redux/user/user.actions';
 import Checkout from './pages/Checkout/Checkout';
 
 function App() {

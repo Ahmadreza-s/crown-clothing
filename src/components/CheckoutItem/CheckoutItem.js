@@ -1,7 +1,7 @@
 import React from 'react';
 import './CheckoutItem.scss';
 import {useDispatch} from 'react-redux';
-import * as actions from '../../store/cart/cart.actions';
+import * as actions from '../../redux/cart/cart.actions';
 
 const CheckoutItem = ({item}) => {
     const dispatch = useDispatch();

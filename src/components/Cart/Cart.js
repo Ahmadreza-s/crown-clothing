@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.scss';
 import Button from '../Button/Button';
 import {useDispatch, useSelector} from 'react-redux';
-import * as actions from '../../store/cart/cart.actions';
+import * as actions from '../../redux/cart/cart.actions';
 import CartItem from './CartItem/CartItem';
 import {useHistory} from 'react-router-dom';
 
