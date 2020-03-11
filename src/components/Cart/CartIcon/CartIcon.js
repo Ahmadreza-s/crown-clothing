@@ -6,11 +6,13 @@ import {toggleCart} from '../../../store/cart/cart.actions';
 
 const CartIcon = () => {
     const dispatch = useDispatch();
-    const itemsCount = useSelector(state => state.cart.cartItems.length);
+    const items = useSelector(state => state.cart.cartItems);
+    let sumQuantity = 0;
+    items.forEach(item => sumQuantity += item.quantity);
     return (
         <div className='cart-icon' onClick={() => dispatch(toggleCart())}>
             <Logo className='shopping-icon'/>
-            <span className='item-count'>{itemsCount}</span>
+            <span className='item-count'>{sumQuantity}</span>
         </div>
     );
 };

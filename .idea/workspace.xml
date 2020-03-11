@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartIcon/CartIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartIcon/CartIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,7 @@
       <workItem from="1583867790931" duration="3648000" />
       <workItem from="1583879443506" duration="712000" />
       <workItem from="1583914532869" duration="9413000" />
-      <workItem from="1583927934015" duration="1463000" />
+      <workItem from="1583927934015" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -186,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583924519699</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="created cart-item component and connected our cart with cartItemsReducer">
+      <created>1583929542509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1583929542509</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +210,8 @@
     <MESSAGE value="added redux and implemented userReducer and userActions to header and app components" />
     <MESSAGE value="added cart icon and cart components to our application, also changed folder structure of store(redux)" />
     <MESSAGE value="updated shop data with new data, updated cart utils to group items in cart reducer" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated shop data with new data, updated cart utils to group items in cart reducer" />
+    <MESSAGE value="created cart-item component and connected our cart with cartItemsReducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="created cart-item component and connected our cart with cartItemsReducer" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -221,10 +225,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583917525863" />
-    <state x="72" y="0" key="CommitChangelistDialog2" timestamp="1583924518975">
+    <state x="72" y="0" key="CommitChangelistDialog2" timestamp="1583929541842">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="72" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583924518975" />
+    <state x="72" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583929541842" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -257,10 +261,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583924523021">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583929544405">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583924523021" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583929544405" />
     <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1583921380647">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
