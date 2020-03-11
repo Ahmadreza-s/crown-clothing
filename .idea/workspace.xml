@@ -4,8 +4,8 @@
     <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CollectionsOverview/CollectionOverview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionsOverview/CollectionOverview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Collection/Collections.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Collection/Collections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/Shop.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/Shop.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Checkout/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop/Shop.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <workItem from="1583879443506" duration="712000" />
       <workItem from="1583914532869" duration="9413000" />
       <workItem from="1583927934015" duration="16198000" />
-      <workItem from="1583952286008" duration="10711000" />
+      <workItem from="1583952286008" duration="11625000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -257,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583965585463</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="data normalization">
+      <created>1583966562759</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1583966562759</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +295,8 @@
     <MESSAGE value="added directory reducer, change directory class to functional component" />
     <MESSAGE value="added shop reducer" />
     <MESSAGE value="completed Collection Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed Collection Page" />
+    <MESSAGE value="data normalization" />
+    <option name="LAST_COMMIT_MESSAGE" value="data normalization" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -302,10 +310,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583917525863" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583966540570">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583966562047">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583966540570" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583966562047" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -342,17 +350,17 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583945103891" />
-    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1583966152310">
+    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1583967271646">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1583966152310" />
+    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1583967271646" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1583754349048">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583754349048" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583966497082">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583967351491">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583966497082" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583967351491" />
   </component>
 </project>

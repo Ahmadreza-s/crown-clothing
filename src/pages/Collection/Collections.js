@@ -29,4 +29,4 @@ const Collections = () => {
     );
 };
 
-export default React.memo(Collections);
+export default Collections;

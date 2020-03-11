@@ -11,4 +11,4 @@ const home = () => {
     );
 };
 
-export default home;
+export default React.memo(home);
