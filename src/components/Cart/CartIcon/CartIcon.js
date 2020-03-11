@@ -5,6 +5,7 @@ import {useDispatch, useSelector} from 'react-redux';
 import {toggleCart} from '../../../store/cart/cart.actions';
 
 const CartIcon = () => {
+    console.log('cart icon rendered');
     const dispatch = useDispatch();
     const items = useSelector(state => state.cart.cartItems);
     let sumQuantity = 0;

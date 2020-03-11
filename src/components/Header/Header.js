@@ -31,7 +31,7 @@ const Header = () => {
                             SIGN IN
                         </Link>
                 }
-                <CartIcon/>
+                {React.useMemo(() => <CartIcon/>, [])}
             </div>
             {
                 !cartHidden && <Cart/>

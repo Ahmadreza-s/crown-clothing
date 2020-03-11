@@ -11,6 +11,7 @@ import {auth, createUserProfileDocument} from './firebase/firebase.utils';
 import Logout from './pages/Logout/Logout';
 import {useDispatch, useSelector} from 'react-redux';
 import {setCurrentUser} from './store/user/user.actions';
+import Checkout from './pages/Checkout/Checkout';
 
 function App() {
     const dispatch = useDispatch();
@@ -43,6 +44,9 @@ function App() {
                 </Route>
                 <Route path='/shop'>
                     <Shop/>
+                </Route>
+                <Route path='/checkout'>
+                    <Checkout/>
                 </Route>
                 {
                     currentUser ?
