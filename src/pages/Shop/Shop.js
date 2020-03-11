@@ -1,16 +1,20 @@
 import React from 'react';
-import CollectionPreview from '../../components/CollectionPreview/CollectionPreview';
-import {useSelector} from 'react-redux';
+import {Route, Switch, useRouteMatch} from 'react-router-dom';
+import CollectionOverview from '../../components/CollectionsOverview/CollectionOverview';
+import Collections from '../Collection/Collections';
 
 const Shop = () => {
-    const collections = useSelector(state => state.shop.collections);
+    const match = useRouteMatch();
     return (
         <div className='shop'>
-            {
-                collections.map(c => (
-                    <CollectionPreview key={c.id} {...c}/>
-                ))
-            }
+            <Switch>
+                <Route exact path={`${match.url}`}>
+                    <CollectionOverview/>
+                </Route>
+                <Route path={`${match.url}/:category`}>
+                    <Collections/>
+                </Route>
+            </Switch>
         </div>
     );
 };
