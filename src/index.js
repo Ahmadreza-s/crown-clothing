@@ -7,10 +7,12 @@ import {Provider} from 'react-redux';
 import {PersistGate} from 'redux-persist/integration/react';
 import {persistor, store} from './redux/store';
 
+const LoadingPersistor = () => <h2>Please wait ...</h2>;
+
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
-            <PersistGate loading={() => <h2>Loading ...</h2>} persistor={persistor}>
+            <PersistGate persistor={persistor} loading={<LoadingPersistor/>}>
                 <App/>
             </PersistGate>
         </BrowserRouter>
