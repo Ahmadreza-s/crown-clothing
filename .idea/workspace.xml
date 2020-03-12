@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="solved some performance improvements">
-      <change afterPath="$PROJECT_DIR$/src/components/StripeButton/StripeButton.js" afterDir="false" />
+    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Checkout/Checkout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Checkout/Checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Checkout/Checkout.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="heroku" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YnnSec9I3qijZl4bpn4wJWITxO" />
@@ -50,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\public" />
       <recent name="C:\Users\Ahmadreza\WebstormProjects\crown-clothing\src\assets\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -96,7 +97,8 @@
       <workItem from="1583879443506" duration="712000" />
       <workItem from="1583914532869" duration="9413000" />
       <workItem from="1583927934015" duration="16198000" />
-      <workItem from="1583952286008" duration="14664000" />
+      <workItem from="1583952286008" duration="15173000" />
+      <workItem from="1584005157735" duration="2434000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -273,7 +275,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583967489069</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add stripe payment to project">
+      <created>1583972659017</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1583972659017</updated>
+    </task>
+    <task id="LOCAL-00027" summary="change favicon and title">
+      <created>1583973038054</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1583973038054</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,8 +297,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Created project with CRA and added files for Homepage" />
-    <MESSAGE value="broken our homepage into smaller components, finished styling our menu-item component" />
     <MESSAGE value="update our menu-items to navigate" />
     <MESSAGE value="updating app with a ShopPage, CollectionItem, CollectionPreview" />
     <MESSAGE value="adding header component and links to home, shop page and contact" />
@@ -306,7 +320,9 @@
     <MESSAGE value="completed Collection Page" />
     <MESSAGE value="data normalization" />
     <MESSAGE value="solved some performance improvements" />
-    <option name="LAST_COMMIT_MESSAGE" value="solved some performance improvements" />
+    <MESSAGE value="add stripe payment to project" />
+    <MESSAGE value="change favicon and title" />
+    <option name="LAST_COMMIT_MESSAGE" value="change favicon and title" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -320,10 +336,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583917525863" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583972658309">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583973037475">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583972658309" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583973037475" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -332,22 +348,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1583958646737">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1583973143123">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583958646737" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1583958646737">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1583973143123" />
+    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1583973143123">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583958646737" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1583958646737">
+    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1583973143123" />
+    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1583973143123">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583958646737" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1583958646737">
+    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1583973143123" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1583973143123">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583958646737" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1583973143123" />
     <state x="453" y="0" key="RollbackChangesDialog" timestamp="1583844298180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -356,10 +372,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1583945103891">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584006925947">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1583945103891" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584006925947" />
     <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1583970023040">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -368,9 +384,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583754349048" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583972693211">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584007643810">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583972693211" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1584007643810" />
   </component>
 </project>
