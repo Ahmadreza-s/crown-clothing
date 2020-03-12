@@ -39,7 +39,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -320,10 +320,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1583917525863" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583970028975">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1583972658309">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583970028975" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1583972658309" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1583612596251">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -368,9 +368,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1583754349048" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583971805707">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1583972693211">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583971805707" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1583972693211" />
   </component>
 </project>
