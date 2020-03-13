@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="solve loading persistor error">
-      <change afterPath="$PROJECT_DIR$/src/hoc/withSpinner/withSpinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/withSpinner/withSpinner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/Shop.actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/Shop.types.js" afterDir="false" />
+    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Shop/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Shop/Shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/Shop.data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop.reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +101,7 @@
       <workItem from="1583927934015" duration="16198000" />
       <workItem from="1583952286008" duration="15173000" />
       <workItem from="1584005157735" duration="2434000" />
-      <workItem from="1584107515539" duration="7487000" />
+      <workItem from="1584107515539" duration="7724000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -307,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584048443721</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add hoc, get data from firebase for collections, and some other improvements">
+      <created>1584116766336</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1584116766336</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +314,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="updating app with a ShopPage, CollectionItem, CollectionPreview" />
     <MESSAGE value="adding header component and links to home, shop page and contact" />
     <MESSAGE value="adding Button, FormInput, Authentication" />
     <MESSAGE value="integrated firebase into app, created sign in with google and some improvements" />
@@ -340,7 +338,8 @@
     <MESSAGE value="add stripe payment to project" />
     <MESSAGE value="change favicon and title" />
     <MESSAGE value="solve loading persistor error" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve loading persistor error" />
+    <MESSAGE value="add hoc, get data from firebase for collections, and some other improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hoc, get data from firebase for collections, and some other improvements" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -354,10 +353,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584113086502" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584110350165">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584116765534">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584110350165" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584116765534" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1584034151978">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -402,9 +401,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1584110817380" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584115632719">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584116971640">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1584115632719" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1584116971640" />
   </component>
 </project>
