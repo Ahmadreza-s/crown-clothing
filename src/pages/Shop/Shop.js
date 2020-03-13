@@ -13,10 +13,7 @@ const Shop = () => {
     React.useEffect(() => {
         dispatch(actions.initiateCollections());
         const collectionRef = firestore.collection('collections');
-        const unsubscribeFromSnapshot = collectionRef.onSnapshot(async snapshot => {
-            dispatch(actions.updateCollections(convertCollectionsSnapshotToMap(snapshot)));
-        });
-        return () => unsubscribeFromSnapshot();
+        collectionRef.get().then(snapshot => dispatch(actions.updateCollections(convertCollectionsSnapshotToMap(snapshot))));
     }, []);
 
     const CollectionOverviewWithSpinner = withSpinner(CollectionOverview);
