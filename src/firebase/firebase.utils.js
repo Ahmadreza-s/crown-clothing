@@ -43,6 +43,21 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     }
 };
 
+export const convertCollectionsSnapshotToMap = (collections) => {
+    let collectionObj = {};
+    collections.docs.forEach(doc => {
+        const {title, items} = doc.data();
+        collectionObj[title.toLowerCase()] = {
+            routeName: encodeURI(title.toLowerCase()),
+            id       : doc.id,
+            title,
+            items
+        };
+    });
+    return collectionObj;
+
+};
+
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
 
