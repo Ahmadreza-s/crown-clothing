@@ -12,13 +12,13 @@ const signInSuccess = user => ({
     type: actionTypes.SIGN_IN_SUCCESS,
     user
 });
-export const signIn = (withGoogle, email, password) => async dispatch => {
+export const signIn = (withGoogle, email, password, additionalUserInfo) => async dispatch => {
     dispatch(signInStart(withGoogle));
     try {
         const {user} = withGoogle ?
             await auth.signInWithPopup(googleProvider) :
             await auth.signInWithEmailAndPassword(email, password);
-        const userRef = await createUserProfileDocument(user);
+        const userRef = await createUserProfileDocument(user, additionalUserInfo);
         const snapshot = await userRef.get();
         dispatch(signInSuccess(
             {
@@ -56,5 +56,25 @@ export const signOut = () => async dispatch => {
     } catch (e) {
         console.log('error sign out', e);
         dispatch({type: actionTypes.SIGN_OUT});
+    }
+};
+
+const signUpStart = () => ({type: actionTypes.SIGN_UP_START});
+const signUpFailure = error => ({type: actionTypes.SIGN_UP_FAILURE, error});
+const signUpSuccess = user => ({type: actionTypes.SIGN_UP_SUCCESS, user});
+export const signUp = (name, email, password) => async dispatch => {
+    dispatch(signUpStart());
+    try {
+        const {user} = await auth.createUserWithEmailAndPassword(email, password);
+        const userRef = await createUserProfileDocument(user, {displayName: name});
+        const snapshot = await userRef.get();
+        dispatch(signUpSuccess(
+            {
+                id: snapshot.id,
+                ...snapshot.data()
+            }
+        ));
+    } catch (e) {
+        signUpFailure(e.message);
     }
 };

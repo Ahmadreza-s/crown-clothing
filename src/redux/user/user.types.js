@@ -7,3 +7,7 @@ export const SIGN_IN_FAILURE = 'SIGN_IN_FAILURE';
 export const CHECK_USER_SESSION = 'CHECK_USER_SESSION';
 
 export const SIGN_OUT = 'SIGN_OUT';
+
+export const SIGN_UP_START = 'SIGN_UP_START';
+export const SIGN_UP_FAILURE = 'SIGN_UP_FAILURE';
+export const SIGN_UP_SUCCESS = 'SIGN_UP_SUCCESS';
