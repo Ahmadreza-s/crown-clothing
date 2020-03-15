@@ -28,7 +28,7 @@ const Header = () => {
                         </Link>
                         :
                         <Link className='option' to={'/auth'}>
-                            SIGN IN
+                            AUTH
                         </Link>
                 }
                 {React.useMemo(() => <CartIcon/>, [])}
