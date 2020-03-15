@@ -2,9 +2,11 @@ import React from 'react';
 import './SignIn.scss';
 import FormInput from '../FormInput/FormInput';
 import Button from '../Button/Button';
-import {auth, SignInWithGoogle} from '../../firebase/firebase.utils';
+import {useDispatch} from 'react-redux';
+import {signIn} from '../../redux/user/user.actions';
 
 const SignIn = () => {
+    const dispatch = useDispatch();
     const [email, setEmailState] = React.useState('');
     const [password, setPasswordState] = React.useState('');
 
@@ -13,11 +15,7 @@ const SignIn = () => {
 
     const submitHandler = async event => {
         event.preventDefault();
-        try {
-            await auth.signInWithEmailAndPassword(email, password);
-        } catch (e) {
-            console.log(e, 'error sign in');
-        }
+        dispatch(signIn(false, email, password));
     };
 
     return (
@@ -41,7 +39,8 @@ const SignIn = () => {
                     <Button type='submit'>
                         Sign In
                     </Button>
-                    <Button onClick={SignInWithGoogle}
+                    <Button onClick={() => dispatch(signIn(true))}
+                            type='button'
                             isGoogleSignIn>
                         Sign In with google
                     </Button>
