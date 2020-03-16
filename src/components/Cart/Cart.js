@@ -11,8 +11,8 @@ const Cart = () => {
     const items = useSelector(state => state.cart.cartItems);
     const history = useHistory();
     const clickHandler = React.useCallback(() => {
-        history.push('/checkout');
         dispatch(actions.toggleCart());
+        history.push('/checkout');
     }, [history]);
     return (
         <div className='cart'>
