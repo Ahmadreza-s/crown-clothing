@@ -2,17 +2,11 @@ import * as actionTypes from './cart.types';
 import {addItemToCart, removeItemFromCart} from './cart.utils';
 import {SIGN_OUT} from '../user/user.types';
 
-const initalState = {
-    hidden   : true,
+const initialState = {
     cartItems: []
 };
-const reducer = (state = initalState, action) => {
+const reducer = (state = initialState, action) => {
     switch (action.type) {
-        case actionTypes.TOGGLE_CART_HIDDEN:
-            return {
-                ...state,
-                hidden: !state.hidden
-            };
         case actionTypes.ADD_ITEM:
             return {
                 ...state,

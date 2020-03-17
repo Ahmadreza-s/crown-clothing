@@ -1,19 +1,19 @@
 import React from 'react';
 import './Cart.scss';
 import Button from '../Button/Button';
-import {useDispatch, useSelector} from 'react-redux';
-import * as actions from '../../redux/cart/cart.actions';
+import {useSelector} from 'react-redux';
 import CartItem from './CartItem/CartItem';
 import {useHistory} from 'react-router-dom';
+import CartContext from '../../contexts/cart/cart.context';
 
 const Cart = () => {
-    const dispatch = useDispatch();
     const items = useSelector(state => state.cart.cartItems);
     const history = useHistory();
+    const context = React.useContext(CartContext);
     const clickHandler = React.useCallback(() => {
-        dispatch(actions.toggleCart());
+        context.toggleHidden();
         history.push('/checkout');
-    }, [history]);
+    }, [history, context]);
     return (
         <div className='cart'>
             <div className='cart-items'>

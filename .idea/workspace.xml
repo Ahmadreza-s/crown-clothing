@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="add sign up to redux">
+    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/contexts/cart/cart.context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartIcon/CartIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartIcon/CartIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.types.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -106,7 +113,8 @@
       <workItem from="1584257024062" duration="351000" />
       <workItem from="1584269634511" duration="8452000" />
       <workItem from="1584302057219" duration="643000" />
-      <workItem from="1584348679903" duration="4688000" />
+      <workItem from="1584348679903" duration="5166000" />
+      <workItem from="1584445322212" duration="1013000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -360,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584285756206</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="fixed a bug">
+      <created>1584353564569</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1584353564569</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +383,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added cart icon and cart components to our application, also changed folder structure of store(redux)" />
     <MESSAGE value="updated shop data with new data, updated cart utils to group items in cart reducer" />
     <MESSAGE value="created cart-item component and connected our cart with cartItemsReducer" />
     <MESSAGE value="Fix the quantity bug" />
@@ -393,7 +407,8 @@
     <MESSAGE value="clearCart when doing logout" />
     <MESSAGE value="change sign in label to auth" />
     <MESSAGE value="add sign up to redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="add sign up to redux" />
+    <MESSAGE value="fixed a bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a bug" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -411,10 +426,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584113086502" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584353353650">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584353563893">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584353353650" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584353563893" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1584034151978">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -423,22 +438,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1584351895864">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1584446095516">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584351895864" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1584351895864">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584446095516" />
+    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1584446095516">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584351895864" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1584351895863">
+    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584446095516" />
+    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1584446095515">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584351895863" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1584351895864">
+    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584446095515" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1584446095516">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584351895864" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584446095516" />
     <state x="453" y="0" key="RollbackChangesDialog" timestamp="1584057462761">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -447,10 +462,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584285762873">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584353568404">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584285762873" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584353568404" />
     <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1584353386476">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
