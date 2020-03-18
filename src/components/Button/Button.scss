@@ -44,3 +44,9 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .custom-button {
+    min-width: 130px;
+  }
+}

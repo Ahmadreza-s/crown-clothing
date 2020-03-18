@@ -14,3 +14,10 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .sign-in {
+    width: 90vw;
+
+  }
+}

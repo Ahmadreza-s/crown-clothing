@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckoutItem/CheckoutItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CollectionItem/CollectionItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionItem/CollectionItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CollectionPreview/CollectionPreview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MenuItem/MenuItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MenuItem/MenuItem.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Checkout/Checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Checkout/Checkout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignIn/SignIn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignIn/SignIn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SignUp/SignUp.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SignUp/SignUp.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Authentication/Authentication.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Authentication/Authentication.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Collection/Collections.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Collection/Collections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Collection/Collections.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Collection/Collections.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,8 @@
       <workItem from="1584477206733" duration="3154000" />
       <workItem from="1584527186756" duration="637000" />
       <workItem from="1584546847820" duration="1659000" />
-      <workItem from="1584551472342" duration="3261000" />
+      <workItem from="1584551472342" duration="4063000" />
+      <workItem from="1584564962637" duration="2138000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -389,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584446451525</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="updated styles to use media queries for mobile">
+      <created>1584555441501</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1584555441501</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,7 +403,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="created cart-item component and connected our cart with cartItemsReducer" />
     <MESSAGE value="Fix the quantity bug" />
     <MESSAGE value="set key for CartItem" />
     <MESSAGE value="added checkout page, checkout item component, and other improvements" />
@@ -422,7 +427,8 @@
     <MESSAGE value="add sign up to redux" />
     <MESSAGE value="fixed a bug" />
     <MESSAGE value="Convert part of the app to use context" />
-    <option name="LAST_COMMIT_MESSAGE" value="Convert part of the app to use context" />
+    <MESSAGE value="updated styles to use media queries for mobile" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated styles to use media queries for mobile" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -440,10 +446,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584113086502" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584446450834">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584555440743">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584446450834" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584555440743" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1584034151978">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -452,22 +458,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1584551676374">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1584565061365">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584551676374" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1584551676374">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584565061365" />
+    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1584565061365">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584551676374" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1584551676373">
+    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584565061365" />
+    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1584565061364">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584551676373" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1584551676374">
+    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584565061364" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1584565061365">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584551676374" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584565061365" />
     <state x="453" y="0" key="RollbackChangesDialog" timestamp="1584057462761">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -476,18 +482,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584353568404">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584555817592">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584353568404" />
-    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1584481383261">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584555817592" />
+    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1584566313988">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1584481383261" />
-    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1584448635148">
+    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1584566313988" />
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1584566997224">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1584448635148" />
+    <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1584566997224" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584553374369">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

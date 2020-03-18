@@ -16,7 +16,7 @@ const Collections = () => {
                     <Redirect to='/'/>
                     :
                     <div className='collection-page'>
-                        <h2 className='title'>{items.title}</h2>
+                        <h2 className='title'>{items.title.toUpperCase()}</h2>
                         <div className='items'>
                             {
                                 items.items.map(item => <CollectionItem key={item.id} item={item}/>)
