@@ -37,3 +37,17 @@
     color: red;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .checkout-page {
+    width: 90%;
+
+    .header-block {
+      width: 22%;
+
+      &:last-child {
+        width: 12%;
+      }
+    }
+  }
+}

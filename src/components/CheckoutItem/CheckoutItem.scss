@@ -40,3 +40,17 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .checkout-item {
+    font-size: 18px;
+
+    .name, .quantity, .price {
+      width: 22%;
+    }
+
+    .quantity {
+
+    }
+  }
+}

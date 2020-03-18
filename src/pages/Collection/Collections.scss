@@ -17,3 +17,10 @@
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+  .collection-page {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+}
