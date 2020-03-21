@@ -5,9 +5,12 @@ import {checkUserSession} from './redux/user/user.actions';
 
 import './App.css';
 import Header from './components/Header/Header';
-import Logout from './pages/Logout/Logout';
 import Spinner from './components/Spinner/Spinner';
+import ErrorBoundary from './components/ErrorBoundary/ErrorBoundary';
+
+import Logout from './pages/Logout/Logout';
 import Home from './pages/Home/Home';
+
 
 const AuthenticationAsync = lazy(() => new Promise(resolve => resolve(import('./pages/Authentication/Authentication'))));
 const CheckoutAsync = lazy(() => new Promise(resolve => resolve(import('./pages/Checkout/Checkout'))));
@@ -23,29 +26,31 @@ function App() {
         <>
             <Header user={currentUser}/>
             <Switch>
-                <Suspense fallback={<Spinner/>}>
-                    <Route exact path='/'>
-                        <Home/>
-                    </Route>
-                    <Route path='/shop'>
-                        <ShopAsync/>
-                    </Route>
-                    <Route path='/checkout'>
-                        <CheckoutAsync/>
-                    </Route>
-                    {
-                        currentUser ?
-                            <Route path='/logout'>
-                                <Logout/>
-                            </Route>
-                            :
-                            <Route path='/auth'>
-                                <AuthenticationAsync/>
-                            </Route>
-                    }
+                <ErrorBoundary>
+                    <Suspense fallback={<Spinner/>}>
+                        <Route exact path='/'>
+                            <Home/>
+                        </Route>
+                        <Route path='/shop'>
+                            <ShopAsync/>
+                        </Route>
+                        <Route path='/checkout'>
+                            <CheckoutAsync/>
+                        </Route>
+                        {
+                            currentUser ?
+                                <Route path='/logout'>
+                                    <Logout/>
+                                </Route>
+                                :
+                                <Route path='/auth'>
+                                    <AuthenticationAsync/>
+                                </Route>
+                        }
 
-                    <Redirect to={'/'}/>
-                </Suspense>
+                        <Redirect to={'/'}/>
+                    </Suspense>
+                </ErrorBoundary>
             </Switch>
         </>
     );
