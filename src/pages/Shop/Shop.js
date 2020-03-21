@@ -1,10 +1,21 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import {Route} from 'react-router-dom';
-import CollectionOverview from '../../components/CollectionsOverview/CollectionOverview';
-import Collections from '../Collection/Collections';
 import {useDispatch, useSelector} from 'react-redux';
 import * as actions from '../../redux/shop/Shop.actions';
 import withSpinner from '../../hoc/withSpinner/withSpinner';
+import Spinner from '../../components/Spinner/Spinner';
+
+
+const CollectionOverviewAsync = lazy(() => new Promise(resolve => {
+    resolve(import('../../components/CollectionsOverview/CollectionOverview'));
+}));
+const CollectionOverviewWithSpinnerAsync = withSpinner(CollectionOverviewAsync);
+
+const CollectionsAsync = lazy(() => new Promise(resolve => {
+    resolve(import('../Collection/Collections'));
+}));
+const CollectionsWithSpinnerAsync = withSpinner(CollectionsAsync);
+
 
 const Shop = () => {
     const dispatch = useDispatch();
@@ -19,19 +30,17 @@ const Shop = () => {
         console.log(error);
     }
 
-    const CollectionOverviewWithSpinner = withSpinner(CollectionOverview);
-    const CollectionsWithSpinner = withSpinner(Collections);
-
 
     return (
         <div className='shop'>
-            <Route exact path='/shop'>
-                <CollectionOverviewWithSpinner isLoading={loading}/>
-            </Route>
-            <Route path='/shop/:category'>
-                <CollectionsWithSpinner isLoading={loading}/>
-            </Route>
-
+            <Suspense fallback={<Spinner/>}>
+                <Route exact path='/shop'>
+                    <CollectionOverviewWithSpinnerAsync isLoading={loading}/>
+                </Route>
+                <Route path='/shop/:category'>
+                    <CollectionsWithSpinnerAsync isLoading={loading}/>
+                </Route>
+            </Suspense>
         </div>
     );
 };
