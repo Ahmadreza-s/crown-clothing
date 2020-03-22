@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="">
+    <list default="true" id="86ab08ce-2f82-4ec7-bd13-9048250d3805" name="Default Changelist" comment="memoized cartItem Component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cart/CartItem/CartItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,8 @@
       <workItem from="1584564962637" duration="3574000" />
       <workItem from="1584607757468" duration="1306000" />
       <workItem from="1584796938450" duration="4737000" />
-      <workItem from="1584822350168" duration="1755000" />
+      <workItem from="1584822350168" duration="2441000" />
+      <workItem from="1584880519238" duration="1460000" />
     </task>
     <task id="LOCAL-00001" summary="Created project with CRA and added files for Homepage">
       <created>1583612542549</created>
@@ -421,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584802476238</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="memoized cartItem Component">
+      <created>1584827429704</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1584827429704</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +436,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="added redux-persist" />
     <MESSAGE value="change some folders name" />
     <MESSAGE value="added directory reducer, change directory class to functional component" />
     <MESSAGE value="added shop reducer" />
@@ -454,7 +460,8 @@
     <MESSAGE value="added lazy loading to project &amp; changed withSpinner" />
     <MESSAGE value="added lazy loading in shop page" />
     <MESSAGE value="added ErrorBoundary" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ErrorBoundary" />
+    <MESSAGE value="memoized cartItem Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="memoized cartItem Component" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -472,10 +479,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1584797619412" />
-    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584802475619">
+    <state x="133" y="0" key="CommitChangelistDialog2" timestamp="1584827493871">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584802475619" />
+    <state x="133" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1584827493871" />
     <state x="129" y="56" key="DiffContextDialog" timestamp="1584034151978">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -484,22 +491,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="318" y="141" key="EditFileWatcherDialog/0.0.1366.738@0.0.1366.738" timestamp="1583612064606" />
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1584822400954">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom" timestamp="1584828105342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584822400954" />
-    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1584822400954">
+    <state width="1345" height="153" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1584828105342" />
+    <state width="1345" height="153" key="GridCell.Tab.0.center" timestamp="1584828105342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584822400954" />
-    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1584822400954">
+    <state width="1345" height="153" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1584828105342" />
+    <state width="1345" height="153" key="GridCell.Tab.0.left" timestamp="1584828105342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584822400954" />
-    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1584822400954">
+    <state width="1345" height="153" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1584828105342" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right" timestamp="1584828105342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584822400954" />
+    <state width="1345" height="153" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1584828105342" />
     <state x="453" y="0" key="RollbackChangesDialog" timestamp="1584057462761">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -508,21 +515,21 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1583615191848" />
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584802484019">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584883525345">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584802484019" />
-    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1584802098740">
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1584883525345" />
+    <state x="369" y="85" width="627" height="568" key="find.popup" timestamp="1584884520365">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1584802098740" />
+    <state x="369" y="85" width="627" height="568" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1584884520365" />
     <state x="339" y="165" width="672" height="677" key="run.anything.popup" timestamp="1584822424642">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="165" width="672" height="677" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1584822424642" />
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584827016407">
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1584884530242">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1584827016407" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1584884530242" />
   </component>
 </project>
