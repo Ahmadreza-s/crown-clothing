@@ -1,5 +1,6 @@
 import * as actionTypes from './user.types';
 import {auth, createUserProfileDocument, getCurrentUser, googleProvider} from '../../firebase/firebase.utils';
+import {clearCart} from '../cart/cart.actions';
 
 const signInStart = withGoogle => ({
     type: withGoogle ? actionTypes.GOOGLE_SIGN_IN_START : actionTypes.EMAIL_SIGN_IN_START
@@ -57,6 +58,11 @@ export const signOut = () => async dispatch => {
         console.log('error sign out', e);
         dispatch({type: actionTypes.SIGN_OUT});
     }
+};
+
+export const signOutAndClearCart = () => async dispatch => {
+    await dispatch(signOut());
+    dispatch(clearCart());
 };
 
 const signUpStart = () => ({type: actionTypes.SIGN_UP_START});
